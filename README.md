@@ -1,8 +1,8 @@
 # Exercise
 ## Overview
-This exercise will take 3½ hours overall. During the first two hours you will solve a few tasks. In the remaining time we will go over the solutions together and discuss them.
+This exercise will take 3 hours overall. During the first two hours you will solve a few tasks. In the remaining time we will go over the solutions together and discuss them.
 
-* Planning and coding: 120 minutes, work is offline. If at any time while working offline you have any questions/issues, call Lior at (669) 227-2742
+* Planning and coding: 135 minutes, work is offline. If at any time while working offline you have any questions/issues, call Lior at (669) 227-2742
 * Rest of the time: everyone re-joins WebEx, and we go over the solutions together
 
 ## Background

@@ -4,7 +4,10 @@ import Modal from 'react-modal';
 // Make sure to bind modal to your appElement (http://reactcommunity.org/react-modal/accessibility/)
 Modal.setAppElement('#root');
 
-// Recommended styling for modal
+/**
+ * React-Modal requires a specific object format for its styling
+ * so one has been provided below.
+ */
 const modalStyles = {
   // Determines the styling for the overlay
   overlay: {
@@ -32,6 +35,7 @@ const modalStyles = {
 
 // An example modal component that utilizes react-modal
 const ExampleModalComponent = () => {
+  // An example state management setup for the Modal's iOpen and onRequestClose attributes
   const [isOpen, updateModalState] = useState(true);
 
   return (

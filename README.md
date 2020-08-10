@@ -2,6 +2,8 @@
 ## Overview
 This exercise will take 3½ hours overall. During the first two hours you will solve a few tasks. In the remaining time we will go over the solutions together and discuss them.
 
+The purpose of this exercise is for you to demonstrate and speak to your approach to code architecture and JS best practices.
+
 * Going over the exercise and setting up the work environment: 15 minutes
 * Planning and coding: 135 minutes, work is offline. If at any time while working offline you have any questions/issues, call Lior at (669) 227-2742 (do not text)
 * Solution review: 60 minutes. Everyone re-joins WebEx, and we go over the solutions together.
@@ -22,8 +24,6 @@ The team’s designer provided [the following video](interview_docs/prototype_ex
   
 #### Deliverables
 Implement the main SPEditor page following the video prototype (in the above paragraph). The implementation should be JS-based.
-
-__Note__: your team members (who will maintain the tool) work in vanilla JS, React and Redux. These libraries are not a constraint, but consider it when you choose the JS solution.
  
   Listed below are the functionality items that should be implemented. They are listed in order of importance, so work in that order.
    1. When the page loads it shows a new empty project, with all frames empty; no data retrieval from a backend is necessary
@@ -35,13 +35,12 @@ __Note__: your team members (who will maintain the tool) work in vanilla JS, Rea
    3. Allow user to preview the sequence
       * Use a one frame per 2 secs rate
       * Use a slide-to-left transition between frames
+      * Plan for re-usability of the preview feature
       
-      __Note__: ideally we would like the preview part in the SPEditor to work also independently outside the context of this application.
-
-   4. Allow user to save the project: upon clicking Save, a POST request will be made (use *localhost* as a placeholder for the server's URL). The request will have the project data in a JSON format in its body. (include image paths only, the images themselves are not necessary.) The JSON structure is open, for you to plan.
-   
    * __Bonus item, time permitting__
-     1. Allow user to place a red (highlight) circle somewhere on a frame, as shown in prototype
+       1. Allow user to save the project: upon clicking Save, a POST request will be made (use *localhost* as a placeholder for the server's URL). The request will have the project data in a JSON format in its body. (include image paths only, the images themselves are not necessary.) The JSON structure is open, for you to plan.
+   
+      2. Allow user to place a red (highlight) circle somewhere on a frame, as shown in prototype
 
 __Notes__: 
       

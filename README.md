@@ -36,7 +36,7 @@ __Note__: your team members (who will maintain the tool) work in vanilla JS, Rea
       * Use a one frame per 2 secs rate
       * Use a slide-to-left transition between frames
       
-      __Note__: ideally we would like the preview part in the SPEditor to be work also independently outside the context of this application.
+      __Note__: ideally we would like the preview part in the SPEditor to work also independently outside the context of this application.
 
    4. Allow user to save the project: upon clicking Save, a POST request will be made (use *localhost* as a placeholder for the server's URL). The request will have the project data in a JSON format in its body. (include image paths only, the images themselves are not necessary.) The JSON structure is open, for you to plan.
    

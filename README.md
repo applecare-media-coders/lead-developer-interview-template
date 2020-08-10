@@ -23,20 +23,20 @@ The team’s designer provided [the following video](interview_docs/prototype_ex
 #### Deliverables
 Implement the main SPEditor page following the video prototype (in the above paragraph). The implementation should be JS-based.
 
-Note: your team members (who will maintain the tool) work in vanilla JS, React and Redux. These libraries are not a constraint, but consider it when you choose the JS solution.
+__Note__: your team members (who will maintain the tool) work in vanilla JS, React and Redux. These libraries are not a constraint, but consider it when you choose the JS solution.
  
   Listed below are the functionality items that should be implemented. They are listed in order of importance, so work in that order.
    1. When the page loads it shows a new empty project, with all frames empty; no data retrieval from a backend is necessary
    2. Allow user to add 5 images (frames) to the project from their computer
         (you can use [our sample images](interview_docs/graphic_assets) for your tests)
         
-        Note: the long-term plan is to be able to use the tool for more than 5 images/frames.
+        __Note__: the long-term plan is to be able to use the tool for more than 5 images/frames.
         
    3. Allow user to preview the sequence
       * Use a one frame per 2 secs rate
       * Use a slide-to-left transition between frames
       
-      Note: ideally we would like the preview part in the SPEditor to be work also independently outside the context of this application.
+      __Note__: ideally we would like the preview part in the SPEditor to be work also independently outside the context of this application.
 
    4. Allow user to save the project: upon clicking Save, a POST request will be made (use *localhost* as a placeholder for the server's URL). The request will have the project data in a JSON format in its body. (include image paths only, the images themselves are not necessary.) The JSON structure is open, for you to plan.
    

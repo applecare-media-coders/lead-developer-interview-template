@@ -1,9 +1,10 @@
 # Exercise
 ## Overview
-This exercise will take 3 hours overall. During the first two hours you will solve a few tasks. In the remaining time we will go over the solutions together and discuss them.
+This exercise will take 3½ hours overall. During the first two hours you will solve a few tasks. In the remaining time we will go over the solutions together and discuss them.
 
+* Going over the exercise and setting up the work environment: 15 minutes
 * Planning and coding: 135 minutes, work is offline. If at any time while working offline you have any questions/issues, call Lior at (669) 227-2742
-* Rest of the time: everyone re-joins WebEx, and we go over the solutions together
+* Solution review: 60 minutes. Everyone re-joins WebEx, and we go over the solutions together.
 
 ## Background
  The organization is using a web app (SequencePlayer) that plays short sequences of images (up to 5 images), with transitions between them. The player does not get any user interactions - it simply switches automatically from one image to another.
